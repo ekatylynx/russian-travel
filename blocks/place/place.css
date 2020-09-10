@@ -1,0 +1,10 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 152px 460px;
+  column-gap: 40px;
+  row-gap: 48px;
+  width: 984px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}

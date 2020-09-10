@@ -1,0 +1,22 @@
+.header__lang-link {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 6px;
+  padding: 0 9px;
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  }
+
