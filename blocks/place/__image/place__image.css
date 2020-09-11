@@ -1,6 +1,5 @@
 .place__image {
-  max-width: 460px;
-  min-width: 320px;
+  width: 100%;
   height: auto;
 
 }

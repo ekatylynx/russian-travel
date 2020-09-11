@@ -1,11 +1,27 @@
 .photo-grid {
   display: grid;
-  margin: 0 auto 92px;
+  margin: 0 auto;
   max-width: 1184px;
-  /* height: 671px; */
-  /* grid-template-columns: repeat(4, 284px); */
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(3, 213px);
   gap: 16px;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    width: 90%;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+    width: 90%;
+  }
 }
 

@@ -2,12 +2,13 @@
   display: grid;
   /* grid-template-columns: 460px 484px; */
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-template-rows: 152px 460px;
+  grid-template-rows: auto auto;
   column-gap: 40px;
   row-gap: 48px;
   max-width: 984px;
   margin: 0 auto;
   padding-bottom: 80px;
+  margin-top: 90px;
 }
 
 @media screen and (max-width: 1279px) {
