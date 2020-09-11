@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   height: 740px;
-  background-image: url(/images/cover-trains.jpg);
+  background-image: url('../../images/cover-trains.jpg');
   background-size: cover;
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.3);
