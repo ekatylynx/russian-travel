@@ -1,7 +1,3 @@
-div {
-  border: 1px solid red;
-}
-
 .intro {
   display: flex;
   flex-direction: column;
