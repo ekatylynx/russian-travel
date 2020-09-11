@@ -5,6 +5,7 @@
   line-height: 18px;
   font-weight: 300;
   margin-right: 18px;
+  transition: opacity .3s ease;
 }
 
 @media screen and (max-width: 766px) {
@@ -15,3 +16,8 @@
     margin-bottom: 32px;
   }
   }
+
+  .footer__link:hover {
+    opacity: .8;
+  }
+  
