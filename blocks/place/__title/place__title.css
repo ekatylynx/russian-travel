@@ -4,9 +4,17 @@
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
-  width: 457px;
+  max-width: 457px;
   max-height: 152px;
   color: #FFF;
   display: flex;
   align-items: flex-end;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  }
+  

@@ -1,9 +1,11 @@
 .photo-grid {
   display: grid;
   margin: 0 auto 92px;
-  width: 1184px;
-  height: 671px;
-  grid-template-columns: repeat(4, 284px);
+  max-width: 1184px;
+  /* height: 671px; */
+  /* grid-template-columns: repeat(4, 284px); */
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(3, 213px);
   gap: 16px;
 }
+

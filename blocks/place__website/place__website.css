@@ -3,3 +3,11 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 681px) {
+  .place__website {
+    display: none;
+  }
+  }
+  
+  

@@ -8,4 +8,5 @@
   max-width: 360px;
   text-align: center;
   margin-top: 32px;
+  z-index: 2;
 }
