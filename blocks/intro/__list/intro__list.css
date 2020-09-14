@@ -9,3 +9,21 @@
   list-style-type: none;
   margin-left: 148px;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro__list {
+    margin-left: 48px;
+  }
+  } 
+
+@media screen and (max-width: 1023px) {
+  .intro__list {
+    margin-left: 24px;
+  }
+  } 
+
+  @media screen and (max-width: 676px) {
+    .intro__list {
+      margin-left: 16px;
+    }
+    } 
