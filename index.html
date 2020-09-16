@@ -6,7 +6,7 @@
   <meta name="description" content="Сайт о путешествии по России">
   <meta name="keywords" content="travel, russia">
   <meta name="author" content="Hitomizavr">
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 
 </head>
@@ -14,17 +14,19 @@
   <div class="page">
     <header class="header">
         <img class="header__logo" src="./images/header__logo.svg" alt="Логотип Россия">
-        <div class="header__lang"> 
-          <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-          <a class="header__lang-link" href="#">En</a>
-        </div>
+        <ul class="header__lang"> 
+          <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+          <li><a class="header__lang-link" href="#">En</a></li>
+        </ul>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-        <img class="lead__image" src="./images/lead-polka2.jpg" alt="Путешествия на поезде">
-        <p class="lead__caption">Ваша полка — верхняя</p>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <figure>
+          <img class="lead__image" src="./images/lead-polka2.jpg" alt="Путешествия на поезде">
+          <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+        </figure>
       </section> 
 
       <section class="intro">
@@ -38,27 +40,27 @@
            в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и 
            описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li>Часовых поясов <span class="intro__list_bold">11</span></li>
-          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_bold">12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_bold">16</span></li>
-          <li>Природных заповедников <span class="intro__list_bold">105</span></li>
-          <li>Аэропортов <span class="intro__list_bold">241</span></li>
+          <li>Часовых поясов <span class="intro__quantity">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__quantity">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__quantity">16</span></li>
+          <li>Природных заповедников <span class="intro__quantity">105</span></li>
+          <li>Аэропортов <span class="intro__quantity">241</span></li>
         </ul>
       </section>
 
       <section class="photo-grid">
-        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="вид из вагона поезда">
-        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="снежные горы России">
-        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="туман">
-        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="сочи">
-        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="лёд">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Байкал">
-        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="стратовулкан Эльбрус">
-        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="дорожный знак">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="горы Камчатки">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="горы и поля Камчатки">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="скалы Байкала">
-        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="горы в тумане">
+          <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="вид из вагона поезда">
+          <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="снежные горы России">
+          <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="туман">
+          <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="сочи">
+          <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="лёд">
+          <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Байкал">
+          <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="стратовулкан Эльбрус">
+          <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="дорожный знак">
+          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="горы Камчатки">
+          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="горы и поля Камчатки">
+          <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="скалы Байкала">
+          <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="горы в тумане">
       </section>
 
       <section class="places">
@@ -67,7 +69,7 @@
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
-            <a class="place__link" href="https://park-kosa.ru">park-kosa.ru</a>
+            <a class="place__link" href="https://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
           <div class="place__paragraphs">
@@ -94,7 +96,8 @@
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
             <a class="place__link" 
-            href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">
+            href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+            target="_blank">
             National Geographic</a>
           </div>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
@@ -121,9 +124,10 @@
         <div class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" 
-              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"> 
+              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+              target="_blank"> 
               Facebook
             </a> 
           </div>
@@ -152,7 +156,8 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
-            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+            <a class="place__link" href="https://vk.com/baikalmile" 
+            target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
           <div class="place__paragraphs">
@@ -178,7 +183,7 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
-            <a class="place__link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+            <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
           <div class="place__paragraphs">
@@ -201,24 +206,26 @@
       </section>
 
       <section class="cover">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <a class="cover__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</h3>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
         </a>
         
       </section>
 
       <footer class="footer">
-        <div class="footer__links">
-          <a class="footer__link" href="#">Карты</a>
-          <a class="footer__link" href="#">Погода</a>
-          <a class="footer__link" href="#">Расписание</a>
-          <a class="footer__link" href="#">Календарь</a>
-          <a class="footer__link" href="#">Путешествия</a>
-        </div>
+        <nav class="footer__links">
+        <ul class="footer__nav-links">
+          <li><a class="footer__link" href="#">Карты</a></li>
+          <li><a class="footer__link" href="#">Погода</a></li>
+          <li><a class="footer__link" href="#">Расписание</a></li>
+          <li><a class="footer__link" href="#">Календарь</a></li>
+          <li><a class="footer__link" href="#">Путешествия</a></li>
+        </ul>
         <p class="footer__copyright">&copy; 2020. Валова Екатерина</p>
-      </footer>
+      </nav>
     </main>
+  </footer>
   </div>
 </body>
 </html>

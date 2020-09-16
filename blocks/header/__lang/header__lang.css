@@ -1,4 +1,5 @@
 .header__lang {
+  list-style-type: none;
   display: flex;
   flex-direction: row;
 }

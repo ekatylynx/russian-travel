@@ -3,9 +3,3 @@
   height: auto;
 
 }
-
-@media screen and (max-width: 767px) {
-  .place__image {
-    width: 100%; 
-  }
-} 

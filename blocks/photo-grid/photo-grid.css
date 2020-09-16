@@ -2,6 +2,7 @@
   display: grid;
   margin: 0 auto;
   max-width: 1184px;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(3, 213px);
   gap: 16px;
@@ -15,13 +16,13 @@
 
 @media screen and (max-width: 1023px) {
   .photo-grid {
-    width: 90%;
-  } 
+    min-width: 928px; 
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .photo-grid {
-    width: 90%;
+  .photo-grid {
+    min-width: 720px; 
   }
 }
 

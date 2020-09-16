@@ -7,9 +7,9 @@
   padding: 15% 0;
   text-decoration: none;
   transition: background-color .4s ease-in;
-  background-color: rgba(34, 34, 34, 0.3);
+  background-color: rgba(42, 44, 47, 0.3);
 }
 
 .cover__link:hover {
-  background-color: rgba(34, 34, 34, 0.8);
+  background-color: rgba(42, 44, 47, 0.8);
 }
