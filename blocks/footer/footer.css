@@ -1,14 +1,13 @@
 .footer {
-  width: 92%;
+  width: 100%;
   display: flex;
   align-items: center;
-  margin: 0 auto;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
+    /* margin/padding: верх право низ лево */
 }
 
 @media screen and (max-width: 766px) {
   .footer {
-      flex-direction: column;
-      align-items: flex-start;
+    margin-bottom: 32px;
   }
   }
