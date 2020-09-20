@@ -1,21 +1,21 @@
 @font-face {
-    src: url('./fonts/Inter-Regular-slnt=0.ttf');
-    src: url('./fonts/Inter-Regular-slnt0.woff');
-    src: url('./fonts/Inter-Regular-slnt0.woff2');
+    src: url('./Inter-Regular-slnt=0.ttf') format('ttf'),
+        url('./Inter-Regular-slnt0.woff2') format('woff2'),
+        url('./Inter-Regular-slnt0.woff') format('woff');
     font-family: 'Inter';
     font-weight: 400;
   }
 @font-face {
-    src: url('./fonts/Inter-Bold-slnt=0.ttf');
-    src: url('./fonts/Inter-Bold-slnt0.woff');
-    src: url('./fonts/Inter-Bold-slnt0.woff2');
+    src: url('./Inter-Bold-slnt=0.ttf') format('ttf'),
+        url('./Inter-Bold-slnt0.woff2') format('woff2'),
+        url('./Inter-Bold-slnt0.woff') format('woff');
     font-family: 'Inter';
     font-weight: 700;
   }
 @font-face {
-    src: url('./fonts/Inter-Black-slnt=0.ttf');
-    src: url('./fonts/Inter-Black-slnt0.woff');
-    src: url('./fonts/Inter-Black-slnt0.woff2');
+    src: url('./Inter-Black-slnt=0.ttf') format('ttf'),
+        url('./Inter-Black-slnt0.woff2') format('woff2'),
+        url('./Inter-Black-slnt0.woff') format('woff');
     font-family: 'Inter';
     font-weight: 900;
   }
