@@ -10,33 +10,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-@media screen and (max-width: 1280px) {
-  .cover {
-    min-height: 740px;
-  }
-}
-
-@media screen and (max-width: 1020px) {
-  .cover {
-    min-height: 640px;
-    min-width: 1024px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    min-height: 480px;
-    min-width: 768px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    min-height: 200px;
-    min-width: 320px;
-  }
-}
-
 
 @media screen and (max-width: 766px) {
   .cover {
