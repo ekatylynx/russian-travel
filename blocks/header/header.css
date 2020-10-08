@@ -1,6 +1,6 @@
 .header {
   max-width: 1184px;
-  width: 90%;
+  /* width: 90%; */
   display: flex;
   justify-content: space-between;
   color: white;

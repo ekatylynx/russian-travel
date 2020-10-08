@@ -5,11 +5,8 @@
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   /* grid-template-rows: repeat(3, 213px); */
-  /* gap: 16px; */
   column-gap: 16px;
   row-gap: 16px;
-  margin-right: 5%;
-  margin-left: 5%;
 }
 
  @media screen and (max-width: 1279px) {

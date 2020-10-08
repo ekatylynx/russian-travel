@@ -11,7 +11,7 @@
   margin-left: 148px;
 }
 
-@media screen and (max-width: 1279px) {
+/* @media screen and (max-width: 1279px) {
   .intro__text {
     margin-left: 48px;
   }
@@ -27,4 +27,4 @@
     .intro__text {
       margin-left: 16px;
     }
-    } 
+    }  */

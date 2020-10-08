@@ -9,5 +9,6 @@
 @media screen and (max-width: 766px) {
   .footer {
     margin-bottom: 32px;
+    display: inline-block;
   }
   }
