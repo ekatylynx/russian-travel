@@ -9,7 +9,7 @@
   padding-bottom: 80px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .place {
     width: 90%; 
   }
@@ -23,8 +23,13 @@
   
   @media screen and (max-width: 768px) {
     .place {
-      width: 100%; 
-      column-gap: 28px;
+      width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place {
+      width: 100%;
     }
   }
 

@@ -3,17 +3,8 @@
   flex-direction: column;
   align-content: center;
   margin: 0 auto;
+  justify-content: left;
 }
 
-/* @media screen and (max-width: 1279px) {
-  .intro {
-    width: 85%;
-  }
-} */
 
-@media screen and (max-width: 1023px) {
-  .intro {
-    width: 90%;
-  } 
-}
 
