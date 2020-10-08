@@ -4,10 +4,10 @@
   max-width: 1184px;
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  /* grid-template-rows: repeat(3, 213px); */
   column-gap: 16px;
   row-gap: 16px;
-  margin: 0 48px;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 @media screen and (max-width: 1024px) {
