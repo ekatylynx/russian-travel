@@ -20,6 +20,8 @@
 @media screen and (max-width: 768px) {
   .intro__text {
     margin-left: 24px;
+    font-size: 16px;
+    line-height: 26px;
   }
   } 
 
