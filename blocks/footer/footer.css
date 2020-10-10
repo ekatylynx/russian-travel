@@ -4,7 +4,6 @@
   align-items: center;
   margin: 0 auto 24px;
   justify-content: space-between;
-    /* margin/padding: верх право низ лево */
 }
 
 @media screen and (max-width: 1023px) {

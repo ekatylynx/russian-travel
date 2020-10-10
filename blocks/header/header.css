@@ -1,6 +1,5 @@
 .header {
   width: calc(100% - 48px * 2);
-  /* width: 95%; */
   display: flex;
   justify-content: space-between;
   color: white;
